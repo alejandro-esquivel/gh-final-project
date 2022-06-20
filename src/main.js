@@ -10,9 +10,9 @@ import './main.scss';
 Vue.config.productionTip = false
 
 new Vue({
-    axios,
-    VueAxios,
-    router,
-    store,
-    render: h => h(App)
+  axios,
+  VueAxios,
+  router,
+  store,
+  render: h => h(App)
 }).$mount('#app')

@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+p {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: Montserrat, Serif;
+    font-weight: 600;
+  }
 }
