@@ -2,8 +2,6 @@
   <div id="app">
     <project-nav></project-nav>
     <router-view/>
-    <h1>This is a test title.</h1>
-    <p>This is a test text.</p>
   </div>
 </template>
 
@@ -18,11 +16,14 @@ export default {
   },
   methods: {
     ...mapActions({
-      onPageLoaded: "onPageLoaded"
+      loadPosts: "loadPosts"
     })
   },
   mounted() {
-    this.onPageLoaded();
+    setTimeout(() => {
+      this.loadPosts();
+    }, 1000)
+    console.log(this.$store.getters.loading);
   }
 
 }
