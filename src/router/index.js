@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PostView from "../views/PostView";
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/posts/:post',
+    name: 'post',
+    component: PostView
+  }
 ]
 
 const router = new VueRouter({

@@ -8,6 +8,9 @@ const postsModule = {
     getPosts(state) {
       return state.posts;
     },
+    getPost(state, id) {
+      return state.posts.filter((post) => post.id === id)
+    },
     getPostsLength(state) {
       return state.posts.length;
     }

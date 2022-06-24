@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="">
     <project-nav></project-nav>
     <router-view/>
   </div>
@@ -20,9 +20,10 @@ export default {
     })
   },
   mounted() {
+    // Aquí simulo un retardo en la obtención de los datos para comprobar que el spinner funciona.
     setTimeout(() => {
       this.loadPosts();
-    }, 1000)
+    }, 500)
     console.log(this.$store.getters.loading);
   }
 
