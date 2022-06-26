@@ -1,8 +1,9 @@
 # gh-final-project
 
-Este es el proyecto final para el bootcamp de Vue de GeeksHub.
+This is GeeksHub's Vue Bootcamp final project.
 
-Es una web app que muestra una lista de posts obtenidos de la API `jsonplaceholder`
+It's a Web App that shows a list of posts fetched from the `jsonplaceholder` API.
+
 
 ## Project setup
 
