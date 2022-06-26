@@ -12,9 +12,10 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/posts/:post',
+    path: '/posts/:postI"',
     name: 'post',
-    component: PostView
+    component: PostView,
+    props: true
   }
 ]
 

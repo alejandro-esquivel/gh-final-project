@@ -8,11 +8,8 @@ const postsModule = {
     getPosts(state) {
       return state.posts;
     },
-    getPost(state, id) {
-      return state.posts.filter((post) => post.id === id)
-    },
-    getPostsLength(state) {
-      return state.posts.length;
+    getPostById: (state) => (id) => {
+      return state.posts.find(post => post.id === id)
     }
   },
   mutations: {
@@ -33,7 +30,6 @@ const postsModule = {
       } catch (error) {
         console.error(error)
       }
-
     }
   }
 }

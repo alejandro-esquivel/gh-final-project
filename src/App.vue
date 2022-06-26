@@ -23,16 +23,13 @@ export default {
     // Aquí simulo un retardo en la obtención de los datos para comprobar que el spinner funciona.
     setTimeout(() => {
       this.loadPosts();
-    }, 500)
-    console.log(this.$store.getters.loading);
+    }, 1000)
+    //TODO: Eliminar todos los console.log
   }
 
 }
 </script>
 
 <style lang="scss" scoped>
-p {
-  font-size: 1.2rem;
-}
 
 </style>

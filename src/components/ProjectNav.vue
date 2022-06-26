@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg mb-4" style="background-color: #cfe2ff;">
     <div class="container-fluid">
-      <router-link to="home" class="navbar-brand">Proyecto Final GeeksHub</router-link>
+      <router-link to="/" class="navbar-brand">Proyecto Final GeeksHub</router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,10 +14,10 @@
             <router-link to="/" class="nav-link active" active-class="active" aria-current="page">Inicio</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Autor</a>
+            <router-link to="/autor" class="nav-link">Autor</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <router-link to="contacto" class="nav-link">Contacto</router-link>
           </li>
         </ul>
       </div>
