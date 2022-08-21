@@ -27,8 +27,10 @@
         <div class="card-body">
           <h5 class="card-title text-capitalize">{{ post.title }}</h5>
           <p class="card-text text-capitalize">{{ post.body }}</p>
-          <router-link :to="'/posts/'+post.id" class="btn btn-primary">Ver detalles</router-link>
-<!--          <a href="#" class="btn btn-primary">Ver detalles</a>-->
+          <!--<router-link :to="'/posts/'+post.id" class="btn btn-primary">Ver detalles</router-link>-->
+          <router-link :to="{name: 'post', params: {'postId': post.id}}" class="btn btn-primary">Ver detalles
+          </router-link>
+          <!--          <a href="#" class="btn btn-primary">Ver detalles</a>-->
         </div>
       </div>
     </div>

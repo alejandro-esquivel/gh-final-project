@@ -66,6 +66,7 @@ export default {
     // Si accedemos a la página del post mediante un enlace, como los posts estarán ya guardados en el store
     // solo hace falta establecer el valor de post con el método computado que lo obtiene del store
     this.post = this.postById;
+    console.log(this.postId);
   }
 }
 </script>
