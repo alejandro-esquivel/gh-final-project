@@ -15,14 +15,14 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link to="/" class="nav-link" aria-current="page">Inicio
+            <router-link :to="{name: 'home'}" class="nav-link" aria-current="page">Inicio
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/autor" class="nav-link">Autor</router-link>
+            <router-link :to="{name: 'author'}" class="nav-link">Autor</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="contacto" class="nav-link">Contacto</router-link>
+            <router-link :to="{name: 'contact'}" class="nav-link">Contacto</router-link>
           </li>
         </ul>
       </div>

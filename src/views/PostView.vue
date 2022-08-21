@@ -2,7 +2,7 @@
   <div class="container col-4">
     <div class="card" v-if="!loading">
       <div class="card-header">
-        <p class="card-text">{{ post.id }}</p>
+        <p class="card-text fw-bold">Post {{ post.id }}</p>
       </div>
       <div class="card-body">
         <h5 class="card-title">{{ post.title }}</h5>

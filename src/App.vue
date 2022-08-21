@@ -1,17 +1,20 @@
 <template>
-  <div id="app" style="">
+  <div id="app" style="height: 100vh;">
     <project-nav></project-nav>
     <router-view />
+    <project-footer></project-footer>
   </div>
 </template>
 
 <script>
 import ProjectNav from "./components/ProjectNav.vue";
 import {mapActions} from "vuex";
+import ProjectFooter from "@/components/ProjectFooter";
 
 export default {
   name: 'App',
   components: {
+    ProjectFooter,
     "ProjectNav": ProjectNav,
   },
   methods: {
