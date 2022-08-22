@@ -14,7 +14,6 @@ It's a Web App that shows a list of posts fetched from the `jsonplaceholder` API
 
 ![Contact form page](https://i.imgur.com/vIXteYI.png)
 
-
 ## Features:
 
 - Open-source post SPA.
@@ -22,11 +21,11 @@ It's a Web App that shows a list of posts fetched from the `jsonplaceholder` API
 - Contact form with data validation.
 
 ## Tech stack used:
+
 - [Vue 2](https://v2.vuejs.org/)
 - [Vuex 3](https://v3.vuex.vuejs.org/)
 - [Bootstrap 5](https://getbootstrap.com/)
 - [Axios](https://github.com/axios/axios)
-
 
 ## Project setup
 
@@ -52,4 +51,4 @@ npm run build
 npm run lint
 ```
 
-## © Alejandro Esquivel for GeeksHub
+## © [Alejandro Esquivel](https://github.com/alejandro-esquivel) for GeeksHub
